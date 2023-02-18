@@ -21,7 +21,7 @@ function UsernameForm({onSubmitUsername}) {
 
     // onSubmitUsername(event.target.elements[0].value)
 
-    onSubmitUsername(inputRef.current.value)
+    onSubmitUsername(username)
   }
 
   const inputRef = React.useRef()
